@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Recommender</h1>
+        <div class="input-box">
+            <label for="language">Select Language:</label>
+            <select id="language">
+                <option value="english">English</option>
+                <option value="french">French</option>
+                <option value="spanish">Spanish</option>
+                <!-- Add more languages as needed -->
+            </select>
+        </div>
+        <div class="input-box">
+            <label for="genre">Select Genre:</label>
+            <select id="genre">
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <!-- Add more genres as needed -->
+            </select>
+        </div>
+        <div class="input-box">
+            <button onclick="generateRecommendation()">Generate</button>
+        </div>
+        <div id="recommendation" class="recommendation-box"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

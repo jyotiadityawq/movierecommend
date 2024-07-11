@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #679dc1, #4e32b4);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background: rgba(118, 87, 87, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #2b5876;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+}
+
+button:hover {
+    background: #00ae00;
+}
+
+.recommendation-box {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.recommendation {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
